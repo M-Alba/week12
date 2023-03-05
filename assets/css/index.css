@@ -1,0 +1,60 @@
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", Georgia, sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+.container {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.comment__title {
+	text-align: center;
+	margin: 30px 0 20px 0;
+}
+
+.comment__subtitle {
+	margin-bottom: 20px;
+	text-align: center;
+	color: blue;
+}
+
+.comment__wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.comment__user {
+	width: 50%;
+}
+
+#userName, #userLink {
+	width: 90%;
+}
+
+.button {
+	cursor: pointer;
+}
+
+.chat {
+	width: 50%;
+}
+
+.chat__wrapper {
+	display: flex;
+	gap: 10px;
+}
+
+.chat__user-image {
+	width: 80px;
+}
+
+.chat__user-name {
+	align-self: center;
+	color: blue;
+}
